@@ -1,0 +1,70 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 20px;
+  }
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+  }
+/*--------Navbar--------*/  
+
+/*--------Index-------*/
+
+.name-group {
+    font-size: 24px;
+    color: purple;
+    font-family: 'Over the Rainbow', cursive;
+}
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+table{
+    display: inline-table;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Vesper Libre', serif;
+    font-size: 20px;
+}
+
+thead{
+    th {
+        color: purple;
+        width: 100%;
+    }
+}
+
+tbody {
+    display: inline-table;
+    font-family: 'Vesper Libre', serif;
+}
+
+td {
+    border: 2px solid purple;
+}
+
+.integrantes{
+    color: purple;
+}
+
+h3{
+    color: purple;
+}
+.castillo {
+    img{
+        width: 200px;
+    }
+}
+.logo-fans{
+    img{
+        width: 200px;
+    }
+}
