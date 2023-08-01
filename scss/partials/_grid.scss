@@ -1,0 +1,53 @@
+/* GRID aplicado a la pagina de Bienvenida*/
+ .menu, .bienvenida, .pregunta, .respuesta , .footer {
+    padding: 10px;
+    /*border: 1px solid;*/
+}
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    row-gap: 1px;
+    grid-template-areas: "menu" "bienvenida" "heart" "pregunta" "respuesta" "footer";
+    min-height: 100vh;
+    grid-template-areas: "menu" "bienvenida" "pregunta" "respuesta" "footer";
+    grid-template-rows: auto auto auto auto auto;
+    min-height: 100vh;
+}
+.menu{
+    grid-area: menu;
+
+    ul{
+        display: flex;
+    }
+}
+.bienvenida{
+    grid-area: bienvenida;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+    grid-area: heart;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pregunta{
+    grid-area: pregunta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.respuesta{
+    grid-area: respuesta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
