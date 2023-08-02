@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* Mixin para display flex y justify-content center */
+/* Mixin para display flex y justify-content space-evenly */
+/* Mixin para display flex y justify-content space-between */
+/* Variable para el Width*/
+/*Variables para los colores*/
 body {
   background-color: #FEE3EC;
   font-family: Arial, sans-serif;
@@ -37,16 +42,16 @@ footer {
 }
 
 /*--------Navbar--------*/
-/*--------Bienvenida--------*/
 .nav-item {
   margin-left: 20px;
 }
 
+/*--------Bienvenida--------*/
 .grid {
   background-image: url("../img/fondo.jpg");
 }
 
-.text-ba {
+.ba-text {
   color: rgba(206, 73, 100, 0.801);
   font-family: "Nanum Pen Script", cursive;
   font-size: 50px;
@@ -57,13 +62,13 @@ footer {
   width: 300px;
 }
 
-.text-bb {
+.bb-text {
   color: rgb(194, 69, 94);
   font-family: "Vesper Libre", serif;
   font-size: 25px;
 }
 
-.text-send {
+.send-text {
   background-color: #FEE3EC;
   font-family: "Nanum Pen Script", cursive;
   font-size: 25px;
@@ -84,7 +89,7 @@ footer {
   letter-spacing: 4px;
 }
 
-/*--------Index-------*/
+/*----------Index---------*/
 main {
   flex: 1;
   padding-bottom: 60px;
@@ -164,6 +169,113 @@ h3 {
 
 .logo-fans img {
   width: 100px;
+}
+
+/*----------Album----------*/
+.album-text {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Over the Rainbow", cursive;
+  font-size: 70px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.ifeel-name {
+  color: rgba(127, 0, 191, 0.582);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: "Over the Rainbow", cursive;
+  font-size: 150px;
+}
+
+.img-qg {
+  margin-bottom: 5px;
+}
+.img-qg img {
+  border-radius: 10%;
+  opacity: 0.8;
+}
+
+.img-bg {
+  margin-bottom: 100px;
+}
+.img-bg img {
+  border-radius: 10%;
+  opacity: 0.8;
+}
+
+.video-name {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Over the Rainbow", cursive;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.gallery-name {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Kranky", cursive;
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.gallery-q {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+.gallery-q img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.gallery-q img:hover {
+  cursor: crosshair;
+  width: 300px;
+}
+
+.gallery-c {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.gallery-c img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  margin-bottom: 50px;
+}
+.gallery-c img:hover {
+  cursor: crosshair;
+  width: 300px;
+}
+
+.gallery-b {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.gallery-b img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.gallery-b img:hover {
+  cursor: crosshair;
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

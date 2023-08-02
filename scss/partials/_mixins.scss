@@ -1,0 +1,17 @@
+/* Mixin para display flex y justify-content center */
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+/* Mixin para display flex y justify-content space-evenly */
+@mixin flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+/* Mixin para display flex y justify-content space-between */
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+  }
