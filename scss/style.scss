@@ -13,11 +13,64 @@ body {
     flex-direction: column;
     padding: 20px;
   }
+
   h1, h2, h3, h4, h5 {
     margin: 0;
   }
-/*--------Navbar--------*/  
 
+  footer {
+    background-color: pink;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.h-footer{
+    color: #7A4495;
+    font-size: 12px;
+}
+/*--------Navbar--------*/  
+/*--------Bienvenida--------*/
+.nav-item{
+    margin-left: 20px;
+}
+.grid{
+    background-image: url("../img/fondo.jpg");
+}
+.text-ba {
+    color: rgba(206, 73, 100, 0.801);
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .heart{
+    width: 300px;
+  }
+  .text-bb {
+    color: rgb(194, 69, 94);
+    font-family: "Vesper Libre", serif;
+    font-size: 25px;
+  }
+  .text-send {
+    background-color: #FEE3EC;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    width: 350px;
+  }
+  .btn {
+    color: rgb(156, 60, 79);
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 16px;
+    background-color: rgba(230, 101, 127, 0.432);
+    border-style: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    letter-spacing: 4px;
+  }
+  
 /*--------Index-------*/
 main{
     flex: 1;
@@ -98,15 +151,4 @@ h3{
     img{
         width: 100px;
     }
-}
-footer {
-    background-color: pink;
-    position: absolute;
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 0;
-}
-.h-footer{
-    color: #7A4495;
-    font-size: 12px;
 }
