@@ -279,5 +279,63 @@ h3 {
 }
 
 /*-----------Tours----------*/
+.tour-name {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 150px;
+}
+
+.tour2023 {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.img-t2023 {
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.ticketmaster {
+  margin-top: 50px;
+}
+.ticketmaster img {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
+.ticketmasterh2 {
+  color: rgba(233, 38, 132, 0.74);
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+.ticketmaster-text {
+  color: rgba(127, 0, 191, 0.582);
+  width: 100%;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
+}
+
+.img-ticket {
+  width: 300px;
+}
+
+span {
+  display: none;
+}
+
+.table-alone {
+  width: 100%;
+}
+
+.table-alone1 {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
