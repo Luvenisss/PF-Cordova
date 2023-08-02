@@ -1,59 +1,71 @@
 @import "partials/reset";
 @import "partials/mixins";
 @import "partials/variables";
+
 body {
     background-color: #FEE3EC;
     font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-  }
+}
 
-  .container {
+.container {
     min-height: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
-  }
+}
 
-  h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
-  }
+}
 
-  footer {
+footer {
     background-color: pink;
     position: absolute;
     width: 100%;
     padding: 10px 0;
     margin-bottom: 0;
 }
-.h-footer{
+
+.h-footer {
     color: #7A4495;
     font-size: 12px;
 }
-/*--------Navbar--------*/  
-.nav-item{
+
+/*--------Navbar--------*/
+.nav-item {
     margin-left: 20px;
 }
+
 /*--------Bienvenida--------*/
-.grid{
+.grid {
     background-image: url("../img/fondo.jpg");
 }
+
 .ba-text {
     color: rgba(206, 73, 100, 0.801);
     font-family: "Nanum Pen Script", cursive;
     font-size: 50px;
     margin-top: 20px;
-  }
-  .heart{
+}
+
+.heart {
     width: 300px;
-  }
-  .bb-text {
+}
+
+.bb-text {
     color: rgb(194, 69, 94);
     font-family: "Vesper Libre", serif;
     font-size: 25px;
-  }
-  .send-text {
+}
+
+.send-text {
     background-color: #FEE3EC;
     font-family: "Nanum Pen Script", cursive;
     font-size: 25px;
@@ -61,8 +73,9 @@ body {
     border-radius: 50%;
     padding: 10px 15px;
     width: 350px;
-  }
-  .btn {
+}
+
+.btn {
     color: rgb(156, 60, 79);
     font-family: "Nanum Pen Script", cursive;
     font-size: 16px;
@@ -71,26 +84,28 @@ body {
     border-radius: 50%;
     padding: 5px 10px;
     letter-spacing: 4px;
-  }
-  
+}
+
 /*----------Index---------*/
-main{
+main {
     flex: 1;
     padding-bottom: 60px;
 }
-.idle{
+
+.idle {
     font-size: 40px;
     color: purple;
     font-family: 'Over the Rainbow', cursive;
     margin-top: 20px;
 }
-.first-p{
+
+.first-p {
     font-size: 16px;
     font-family: 'Vesper Libre', serif;
     margin-bottom: 40px;
 }
 
-table{
+table {
     display: inline-table;
     justify-content: center;
     width: 100%;
@@ -99,7 +114,7 @@ table{
     font-size: 16px;
 }
 
-thead{
+thead {
     th {
         color: purple;
         width: 100%;
@@ -117,8 +132,8 @@ td {
     border: 2px solid purple;
 }
 
-.integrantes{
-    background-color:pink;
+.integrantes {
+    background-color: pink;
     color: purple;
     font-family: 'Vesper Libre', serif;
     font-size: 50px;
@@ -126,42 +141,48 @@ td {
     margin-top: 50px;
 }
 
-h3{
+h3 {
     color: purple;
     font-family: 'Vesper Libre', serif;
     font-size: 16px;
     margin-top: 10px;
 }
-.name-fandom{
+
+.name-fandom {
     color: purple;
     font-family: 'Over the Rainbow', cursive;
     font-size: 40px;
     margin-top: 50px;
 }
+
 .castillo {
-    img{
+    img {
         width: 100px;
         margin-top: 5px;
     }
 }
-.second-p{
+
+.second-p {
     font-size: 16px;
     font-family: 'Vesper Libre', serif;
     margin-top: 10px;
 }
-.logo-fans{
-    img{
+
+.logo-fans {
+    img {
         width: 100px;
     }
 }
+
 /*----------Album----------*/
 .album-text {
     color: rgb(233, 38, 132, 0.74);
     font-family: 'Over the Rainbow', cursive;
     font-size: 70px;
     margin-top: 45px;
-    margin-bottom: 0px;   
+    margin-bottom: 0px;
 }
+
 .ifeel-name {
     color: rgba(127, 0, 191, 0.582);
     @include flex-center;
@@ -171,34 +192,40 @@ h3{
     font-family: 'Over the Rainbow', cursive;
     font-size: 150px;
 }
-.img-qg{
+
+.img-qg {
     margin-bottom: 5px;
-   
-    img{
+
+    img {
         border-radius: 10%;
         opacity: .8;
     }
 }
-.img-bg{
+
+.img-bg {
     margin-bottom: 100px;
-    img{
+
+    img {
         border-radius: 10%;
         opacity: .8;
     }
 }
+
 .video-name {
     color: rgb(233, 38, 132, 0.74);
     font-family: 'Over the Rainbow', cursive;
     font-size: 30px;
-    margin-top: 50px;  
+    margin-top: 50px;
 }
+
 .gallery-name {
     color: rgb(233, 38, 132, 0.74);
     font-family: 'Kranky', cursive;
     font-size: 40px;
     margin-top: 5px;
-    
+
 }
+
 .gallery-q {
     display: flex;
     width: $full-width;
@@ -219,6 +246,7 @@ h3{
         width: 300px;
     }
 }
+
 .gallery-c {
     display: flex;
     width: $full-width;
@@ -240,6 +268,7 @@ h3{
         width: 300px;
     }
 }
+
 .gallery-b {
     display: flex;
     width: $full-width;
@@ -253,7 +282,7 @@ h3{
         opacity: .8;
         transition: .5s ease;
     }
-    
+
     img:hover {
         cursor: crosshair;
         width: 300px;
@@ -267,6 +296,7 @@ h3{
     font-family: 'Nanum Pen Script', cursive;
     font-size: 150px;
 }
+
 .tour2023 {
     color: rgb(233, 38, 132, 0.74);
     font-family: 'Nanum Pen Script', cursive;
@@ -278,38 +308,63 @@ h3{
     margin-top: 10px;
     border-radius: 10%;
 }
+
 .ticketmaster {
     margin-top: 50px;
 
     img {
         border-radius: 50%;
         margin-top: 5px;
-        margin-left: 100px;
+        width: 300px;
     }
 }
+
 .ticketmasterh2 {
     color: rgb(233, 38, 132, 0.74);
     font-family: 'Nanum Pen Script', cursive;
     font-size: 70px;
     margin-top: 30px;
 }
+
 .ticketmaster-text {
     color: rgba(127, 0, 191, 0.582);
     width: $full-width;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
 }
-.img-ticket{
-    width: 300px;
-}
-span{
+
+span {
     display: none;
 }
-.table-alone {
-    width: $full-width;
+
+
+tbody {
+    width: 100%;
+    margin-right: 0px;
 }
-.table-alone1 {
-    width: $full-width;
-    margin-top: 50px;
+
+.table-name {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+}
+
+.table-1a {
+    margin-top: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-1b {
+    margin-top: 10px;
+}
+
+.table-2a {
+    margin-top: 100px;
     margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.table-2b {
+    margin-top: 10px;
 }

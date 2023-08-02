@@ -24,7 +24,11 @@ body {
   padding: 20px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
 }
 
@@ -303,7 +307,7 @@ h3 {
 .ticketmaster img {
   border-radius: 50%;
   margin-top: 5px;
-  margin-left: 100px;
+  width: 300px;
 }
 
 .ticketmasterh2 {
@@ -320,22 +324,39 @@ h3 {
   font-size: 25px;
 }
 
-.img-ticket {
-  width: 300px;
-}
-
 span {
   display: none;
 }
 
-.table-alone {
+tbody {
   width: 100%;
+  margin-right: 0px;
 }
 
-.table-alone1 {
-  width: 100%;
-  margin-top: 50px;
+.table-name {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 50px;
+}
+
+.table-1a {
+  margin-top: 130px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.table-1b {
+  margin-top: 10px;
+}
+
+.table-2a {
+  margin-top: 100px;
   margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.table-2b {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
