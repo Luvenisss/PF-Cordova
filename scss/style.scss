@@ -25,6 +25,14 @@ h5 {
     margin: 0;
 }
 
+/*----------Navbar----------*/
+.nav-item {
+    margin-left: 20px;
+}
+.logo-group{
+    width: 100px;
+}
+/*----------Footer----------*/
 footer {
     background-color: pink;
     position: absolute;
@@ -38,12 +46,7 @@ footer {
     font-size: 12px;
 }
 
-/*--------Navbar--------*/
-.nav-item {
-    margin-left: 20px;
-}
-
-/*--------Bienvenida--------*/
+/*----------Bienvenida----------*/
 .grid {
     background-image: url("../img/fondo.jpg");
 }
@@ -370,9 +373,10 @@ tbody {
 }
 
 /*----------Instragram----------*/
-.grid-wrapper{
+.grid-wrapper {
     margin-top: 50px;
 }
+
 blockquote {
     vertical-align: middle;
     display: inline-block;
@@ -384,13 +388,18 @@ blockquote {
     font-size: 40px;
     margin-top: 25px;
 }
-.instagram-media{
+
+.instagram-media {
     width: 100%;
     height: 550px;
     justify-content: center;
 }
-.insta-in{
-    color: rgba(127, 0, 191, 0.527);;
+
+.insta-in {
+    color: rgba(127, 0, 191, 0.527);
+    ;
     font-family: 'Over the Rainbow', cursive;
     font-size: 20px;
 }
+
+@import "partials/queries";
