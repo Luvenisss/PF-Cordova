@@ -154,6 +154,7 @@ tbody {
 
 td {
     border: 2px solid purple;
+    padding: 5px;
 }
 
 .integrantes {
@@ -166,9 +167,9 @@ td {
 }
 
 h3 {
-    color: purple;
+    color: rgba(127, 0, 191, 0.527);
     font-family: 'Vesper Libre', serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -209,12 +210,11 @@ h3 {
 
 .ifeel-name {
     color: rgba(127, 0, 191, 0.582);
-    @include flex-center;
     width: $full-width;
     margin-top: 0px;
     margin-bottom: 50px;
     font-family: 'Over the Rainbow', cursive;
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .img-qg {
