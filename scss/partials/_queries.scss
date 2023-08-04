@@ -11,6 +11,13 @@
         }
     }
 
+    .gallery-q,
+    .gallery-c,
+    .gallery-b {
+        width: 500px;
+
+    }
+
     /*----------Tours----------*/
     .ticketmaster {
 
@@ -18,13 +25,6 @@
             width: 500px;
             margin-left: 500px;
         }
-    }
-
-    .gallery-q,
-    .gallery-c,
-    .gallery-b {
-        width: 500px;
-
     }
 }
 
@@ -115,14 +115,20 @@
 
 
     /*----------Tours----------*/
+
+    .tour2023,
+    .img-t2023 {
+        width: 600px;
+    }
+
     .table-1a {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
     }
 
     .table-2a {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
     }
 
     /*----------Instagram----------*/
