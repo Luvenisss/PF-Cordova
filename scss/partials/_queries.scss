@@ -1,5 +1,6 @@
 /*Dispositivos móviles y tablets*/
 @media (min-width: 550px) {
+
     /*----------Album----------*/
     .img-qg,
     .img-bg {
@@ -129,6 +130,12 @@
 
 /*Pantallas medianas y desktops*/
 @media (min-width: 1199px) {
+
+    /*----------Index----------*/
+    h3 {
+        color: rgba(127, 0, 191, 0.527);
+        font-size: 28px;
+    }
 
     /*----------Album----------*/
     .img-qg,
