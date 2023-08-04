@@ -3,7 +3,7 @@
 @import "partials/variables";
 
 body {
-    background-color: #FEE3EC;
+    background-color: $color-1;
     font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
@@ -55,7 +55,7 @@ ul {
 }
 /*----------Footer----------*/
 footer {
-    background-color: pink;
+    background-color: $color-2;
     position: absolute;
     width: 100%;
     padding: 10px 0;
@@ -63,7 +63,7 @@ footer {
 }
 
 .h-footer {
-    color: #7A4495;
+    color:$color-11;
     font-size: 12px;
 }
 
@@ -73,7 +73,7 @@ footer {
 }
 
 .ba-text {
-    color: rgba(206, 73, 100, 0.801);
+    color: $color-3;
     font-family: "Nanum Pen Script", cursive;
     font-size: 50px;
     margin-top: 20px;
@@ -84,13 +84,13 @@ footer {
 }
 
 .bb-text {
-    color: rgb(194, 69, 94);
+    color: $color-4;
     font-family: "Vesper Libre", serif;
     font-size: 25px;
 }
 
 .send-text {
-    background-color: #FEE3EC;
+    background-color: $color-1;
     font-family: "Nanum Pen Script", cursive;
     font-size: 25px;
     border-style: none;
@@ -100,10 +100,10 @@ footer {
 }
 
 .btn {
-    color: rgb(156, 60, 79);
+    color: $color-5;
     font-family: "Nanum Pen Script", cursive;
     font-size: 16px;
-    background-color: rgba(230, 101, 127, 0.432);
+    background-color: $color-10;
     border-style: none;
     border-radius: 50%;
     padding: 5px 10px;
@@ -118,7 +118,7 @@ main {
 
 .idle {
     font-size: 40px;
-    color: purple;
+    color: $color-7;
     font-family: 'Over the Rainbow', cursive;
     margin-top: 20px;
 }
@@ -140,7 +140,7 @@ table {
 
 thead {
     th {
-        color: purple;
+        color: $color-7;
         width: 100%;
         font-family: 'Vesper Libre', serif;
         font-size: 25px;
@@ -153,13 +153,13 @@ tbody {
 }
 
 td {
-    border: 2px solid purple;
+    border: 2px solid $color-7;
     padding: 5px;
 }
 
 .integrantes {
-    background-color: pink;
-    color: purple;
+    background-color: $color-2;
+    color: $color-7;
     font-family: 'Vesper Libre', serif;
     font-size: 50px;
     width: 100%;
@@ -167,14 +167,14 @@ td {
 }
 
 h3 {
-    color: rgba(127, 0, 191, 0.527);
+    color: $color-8;
     font-family: 'Vesper Libre', serif;
     font-size: 18px;
     margin-top: 10px;
 }
 
 .name-fandom {
-    color: purple;
+    color: $color-7;
     font-family: 'Over the Rainbow', cursive;
     font-size: 40px;
     margin-top: 50px;
@@ -201,7 +201,7 @@ h3 {
 
 /*----------Album----------*/
 .album-text {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Over the Rainbow', cursive;
     font-size: 70px;
     margin-top: 45px;
@@ -209,7 +209,7 @@ h3 {
 }
 
 .ifeel-name {
-    color: rgba(127, 0, 191, 0.582);
+    color: $color-9;
     width: $full-width;
     margin-top: 0px;
     margin-bottom: 50px;
@@ -236,14 +236,14 @@ h3 {
 }
 
 .video-name {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Over the Rainbow', cursive;
     font-size: 30px;
     margin-top: 50px;
 }
 
 .gallery-name {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Kranky', cursive;
     font-size: 40px;
     margin-top: 5px;
@@ -316,13 +316,13 @@ h3 {
 /*-----------Tours----------*/
 
 .tour-name {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 150px;
 }
 
 .tour2023 {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
     margin-top: 50px;
@@ -344,14 +344,14 @@ h3 {
 }
 
 .ticketmasterh2 {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 70px;
     margin-top: 30px;
 }
 
 .ticketmaster-text {
-    color: rgba(127, 0, 191, 0.582);
+    color: $color-9;
     width: $full-width;
     font-family: 'Nanum Pen Script', cursive;
     font-size: 25px;
@@ -404,7 +404,7 @@ blockquote {
 }
 
 .instagram {
-    color: rgb(233, 38, 132, 0.74);
+    color: $color-6;
     font-family: 'Rampart One', cursive;
     font-size: 40px;
     margin-top: 25px;
@@ -417,7 +417,7 @@ blockquote {
 }
 
 .insta-in {
-    color: rgba(127, 0, 191, 0.527);
+    color: $color-8;
     ;
     font-family: 'Over the Rainbow', cursive;
     font-size: 20px;
