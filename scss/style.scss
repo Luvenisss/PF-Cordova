@@ -394,20 +394,20 @@ tbody {
 }
 
 /*----------Instragram----------*/
-.grid-wrapper {
-    margin-top: 50px;
-}
-
-blockquote {
-    vertical-align: middle;
-    display: inline-block;
-}
 
 .instagram {
     color: $color-6;
     font-family: 'Rampart One', cursive;
     font-size: 40px;
     margin-top: 25px;
+}
+
+.insta-ss{
+    margin-top: 50px;
+    img{
+        width: 350px;
+        margin-left: 0;
+    }
 }
 
 .instagram-media {
@@ -418,9 +418,9 @@ blockquote {
 
 .insta-in {
     color: $color-8;
-    ;
     font-family: 'Over the Rainbow', cursive;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 @import "partials/queries";

@@ -381,20 +381,19 @@ tbody {
 }
 
 /*----------Instragram----------*/
-.grid-wrapper {
-  margin-top: 50px;
-}
-
-blockquote {
-  vertical-align: middle;
-  display: inline-block;
-}
-
 .instagram {
   color: rgba(233, 38, 132, 0.74);
   font-family: "Rampart One", cursive;
   font-size: 40px;
   margin-top: 25px;
+}
+
+.insta-ss {
+  margin-top: 50px;
+}
+.insta-ss img {
+  width: 350px;
+  margin-left: 0;
 }
 
 .instagram-media {
@@ -407,6 +406,7 @@ blockquote {
   color: rgba(127, 0, 191, 0.527);
   font-family: "Over the Rainbow", cursive;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 /*Dispositivos móviles y tablets*/
@@ -428,6 +428,11 @@ blockquote {
     width: 500px;
   }
 }
+/*----------Instagram----------*/
+.insta-ss img {
+  width: 450px;
+}
+
 @media (min-width: 650px) {
   /*----------Tours----------*/
   .table-1a {
@@ -467,9 +472,6 @@ blockquote {
     margin-right: 60px;
   }
   /*----------Instagram----------*/
-  .insta-duo {
-    margin-left: 60px;
-  }
   .instagram-media {
     width: 300px;
     height: 600px;
